@@ -22,7 +22,7 @@
             <div class="col-9">
               <input
                 type="search"
-                placeholder="Whats the weather like in?"
+                placeholder="Enter location"
                 class="form-control"
                 id="city-input"
               />
@@ -38,9 +38,9 @@
         </form>
 
         <div class="overview">
-          <h2>UPDATED: <span id="date"></span></h2>
+          <h2>LAST UPDATED: <span id="date"></span></h2>
+          <hr class="gradient" />
           <h1 id="city"></h1>
-          <br />
 
           <div class="d-flex weather-temperature">
             <img src="" alt="Clear" id="icon" class="float-left" />
@@ -55,8 +55,8 @@
             </ul>
           </div>
         </div>
-
-        <h2>6 DAYS FORECAST<br/></h2>
+        <h2>6 DAYS FORECAST</h2>
+        <hr class="gradient" />
         <div class="weather-forecast" id="forecast"></div>
       </div>
     </div>

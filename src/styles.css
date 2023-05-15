@@ -5,21 +5,28 @@ body {
 }
 
 h1 {
-  color: #313131;
+  color: #061074;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   font-size: 32px;
-  margin-top: -6px;
+  padding-bottom: 20px;
 }
 
 h2 {
   font-size: 12px;
-  color: #2155a4b9;
+  color: #2155a4;
   font-weight: 500;
   letter-spacing: 1.5px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px 0 0 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #061074;
+  border-color: #061074;
 }
 
 ul {
@@ -30,7 +37,7 @@ ul {
 li {
   list-style: none;
   color: #313131;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 19px;
   margin: 0;
@@ -105,3 +112,16 @@ li::first-letter {
   opacity: 0.4;
 }
 
+hr.gradient {
+  height: 3px;
+  border: none;
+  border-radius: 6px;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
